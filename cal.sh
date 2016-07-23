@@ -13,6 +13,11 @@ echo "Regular Calculator"
      read no2
      echo "Addition is:" `expr $no1 + $no2`
      ;;
+  2) echo "Enter two nos"
+     read n1
+     read n2
+     echo "Substraction is:" `expr $n1 - $n2`
+     ;;
   *) echo "wrong choice"
  esac
 
