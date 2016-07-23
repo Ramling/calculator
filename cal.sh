@@ -21,7 +21,7 @@ echo "Regular Calculator"
   3)echo "Enter two nos:"
     read n3
     read n4
-    echo "Multiplication:" `expr $n3 * $n4`
+    echo "Multiplication:" `expr $n3 \* $n4`
     ;;
   *) echo "wrong choice"
  esac
